@@ -1,0 +1,85 @@
+* {
+}
+body {
+  margin: 0px;
+  background: linear-gradient(0deg,rgba(213, 216, 220, .7),rgba(213, 216, 220, 0.7)), url('/assets/54party.jpg')no-repeat center fixed;
+  background-size: 100% 100%;
+}
+/*html {*/
+  /*height: 100%;*/
+
+#container {
+  height: 100%;
+  text-align: center;
+  font-family: 'Arial';
+  letter-spacing: 15px;
+}
+#container h2 {
+    font-weight: lighter;
+}
+#container h3 {
+    font-weight: lighter;
+}
+#header {
+  background-color: black;
+  box-shadow: 0px 10px 5px rgba(135, 135, 135, 0.8);
+  text-align: center;
+  position: fixed; /* Set the navbar to fixed position */
+  top:0;/* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  display: block;
+}
+
+#header h1 {
+  display: block;
+  text-align: center;
+  letter-spacing: 15px;
+  font-weight: lighter;
+  cursor: pointer;
+  margin-top: 25px;
+  transition: 2s;
+}
+
+#header span {
+  transition: 1s;
+  color: white;
+}
+#header span:hover {
+  font-size:42px;
+  color: #28EBD1;
+  transition: .2s;
+}
+
+#search {
+  text-align: center;
+  height: 200px;
+  /*margin-top: 150px;*/
+  display: block;
+  background: white;
+  box-shadow: 0px 10px 5px rgba(135, 135, 135, 0.8);
+}
+#search h2 {
+  display: inline-block;
+}
+
+input[type=submit]:hover {
+  color: #28EBD1;
+
+  cursor: pointer;
+}
+
+#results {
+  display: none;
+  background: white;
+  box-shadow: 0px 10px 5px rgba(135, 135, 135, 0.8);
+  height: 100%;
+  width: auto;
+  margin-top: 20px;
+}
+
+#results h2 {
+  display: inline-block;
+}
+.empty {
+  height:200px;
+}
